@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-09T00:42:45.742Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="gX4olwNM_IQRC4imSQ9Z" version="12.3.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-09T01:01:21.737Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="UMFspYyeEZe153g7TsDB" version="12.3.8" type="github" pages="3">
   <diagram id="9IbgbDr_LpOW7SJLi0mh" name="菜单列表展示页面">
     <mxGraphModel dx="1038" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -610,6 +610,11 @@
           <mxGeometry x="0.3266" y="30" relative="1" as="geometry">
             <mxPoint x="250" y="60" as="targetPoint"/>
             <mxPoint as="offset"/>
+            <Array as="points">
+              <mxPoint x="250" y="120"/>
+              <mxPoint x="320" y="120"/>
+              <mxPoint x="320" y="177"/>
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jaYtSlw9XoslfYvVKK2n-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jaYtSlw9XoslfYvVKK2n-1" source="jaYtSlw9XoslfYvVKK2n-9" target="jaYtSlw9XoslfYvVKK2n-10" edge="1">
@@ -751,23 +756,23 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jaYtSlw9XoslfYvVKK2n-49" value="分配" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="jaYtSlw9XoslfYvVKK2n-1" edge="1">
+        <mxCell id="jaYtSlw9XoslfYvVKK2n-49" value="分配" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="jaYtSlw9XoslfYvVKK2n-1" edge="1" source="jaYtSlw9XoslfYvVKK2n-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="259.8571428571429" as="sourcePoint"/>
-            <mxPoint x="250" y="259.8571428571429" as="targetPoint"/>
+            <mxPoint x="440" y="259.8571428571429" as="sourcePoint"/>
+            <mxPoint x="260" y="259.8571428571429" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="430" y="220"/>
-              <mxPoint x="250" y="220"/>
+              <mxPoint x="260" y="220"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jaYtSlw9XoslfYvVKK2n-52" value="many2many" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.459;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="jaYtSlw9XoslfYvVKK2n-1" edge="1" source="jaYtSlw9XoslfYvVKK2n-12">
+        <mxCell id="jaYtSlw9XoslfYvVKK2n-52" value="many2many" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="jaYtSlw9XoslfYvVKK2n-1" edge="1" target="jaYtSlw9XoslfYvVKK2n-10" source="jaYtSlw9XoslfYvVKK2n-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="434" y="320" as="sourcePoint"/>
             <mxPoint x="249.8620689655172" y="319.72413793103453" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="430" y="350"/>
-              <mxPoint x="250" y="350"/>
+              <mxPoint x="260" y="350"/>
             </Array>
           </mxGeometry>
         </mxCell>
